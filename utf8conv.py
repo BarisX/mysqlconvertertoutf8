@@ -11,7 +11,8 @@ dbname = "supereleman_son"
 
 db = MySQLdb.connect(host=host, user=user, passwd=passwd, db=dbname)
 cursor = db.cursor()
-cursor.execute("SET sql_mode = ''") #0000-00-00 default değerli tarihlerin hatalarını atlarız ve bunu sadece 1 swefe
+cursor.execute("SET sql_mode = ''") 
+#0000-00-00 default değerli tarihlerin hatalarını atlarız ve bunu sadece tek bir çalışma olarak ayarlamış oluruz
 """
 Disabling the SQL mode temporarily for the current connection
 Connect to MySQL server.
