@@ -4,10 +4,10 @@ Mail: baris.senyerli@ogr.sakarya.edu.tr
 """
 
 import MySQLdb
-host = "192.168.1.23"
+host = "xxxx.xxxx.xxxx.xxxx"
 passwd = "some_pass"
 user = "barisx"
-dbname = "supereleman_son"
+dbname = "barisxdb"
 
 db = MySQLdb.connect(host=host, user=user, passwd=passwd, db=dbname)
 cursor = db.cursor()
