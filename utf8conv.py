@@ -1,5 +1,6 @@
 """
-author: Barış Şenyerli
+original code: https://gist.github.com/jhgaylor/4598610
+developer author: Barış Şenyerli
 Mail: baris.senyerli@ogr.sakarya.edu.tr
 """
 
